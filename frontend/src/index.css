@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #ff0000;
+}
+
+@theme {
+  --color-primary: var(--primary-color);
+}
+
+body {
+  @apply bg-gray-900 text-white overflow-hidden;
+  font-family: 'Inter', sans-serif;
+  user-select: none;
+}
